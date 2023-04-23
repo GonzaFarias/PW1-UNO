@@ -26,13 +26,10 @@ header {
     display: flex;
     align-items: center;
     font-size: x-large;
+    border-bottom-left-radius: 50% 15%;
+    border-bottom-right-radius: 50% 15%;
 }
-.efecto{
-    margin-left: 90px;
-    margin-bottom: 100px;
-    border-bottom: 2px solid white;
-    padding-bottom: 1px;
-}
+
 /* Estilos para la imagen de perfil */
 header #foto {
     height: 180px;
@@ -42,10 +39,8 @@ header #foto {
 
 header div {
     padding-right: 70px;
-    padding: 80px;
-
+    padding: 70px;
 }
-
 
 /* Estilos para el formulario */
 form {
@@ -121,4 +116,6 @@ footer {
     color: #fff;
     padding: 20px;
     text-align: center;
+    border-top-left-radius: 50% 35%;
+    border-top-right-radius: 50% 35%;
 }
