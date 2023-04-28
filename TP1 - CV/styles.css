@@ -19,15 +19,17 @@ li {
     padding: 5px;
 }
 
-li a{
+li a {
     color: black;
 }
-a{
+
+a {
     text-decoration: none;
     color: white;
 }
-a:hover{
-    text-decoration:underline;
+
+a:hover {
+    text-decoration: underline;
 }
 
 /* Estilos para el header */
@@ -67,8 +69,7 @@ label,
 input,
 textarea {
     margin-bottom: 10px;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    padding: 5px 0px 5px 0px;
 }
 
 input[type="submit"] {
@@ -79,9 +80,11 @@ input[type="submit"] {
     cursor: pointer;
 }
 
-input:hover, textarea:hover{
+input:hover,
+textarea:hover {
     border-color: rgb(0, 0, 0);
 }
+
 input[type="submit"]:hover {
     background-color: rgb(83, 82, 82);
 }
@@ -103,7 +106,6 @@ section h2 {
 /* Estilos para la tabla */
 table {
     border-collapse: collapse;
-    margin-top: 20px;
     width: 100%;
 }
 
