@@ -101,6 +101,13 @@ function enviarPropuesta(event) {
         return null;
     }
 
+    let tablaCuerpo = document.getElementById('tablaCuerpo');
+    let nombresEnTabla = Array.from(tablaCuerpo.getElementsByTagName('td')).map(td => td.textContent);
+    if (nombresEnTabla.includes(nombre)) {
+      alert('El nombre ya ha sido ingresado', 'danger');
+      return null;
+    }
+
     // Crear una nueva fila en la tabla
     let tabla = document.getElementById("miTabla");
     let fila = tabla.insertRow();
