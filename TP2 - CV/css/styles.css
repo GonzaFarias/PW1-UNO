@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital@0;1&display=swap');
+
+/* Estilos generales */
+body {
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: large;
+}
+
+h1,
+h2,
+h3 {
+    margin-top: 0;
+}
+
+.nav {
+    background-color: rgb(0, 0, 0);
+
+}
+
+.nav-link:hover {
+    color: white;
+    background-color: #202020;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+
+/* Estilos para el header */
+header {
+    background-image: url("../img/Gotham.jfif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    border-bottom-right-radius: 50% 15%;
+    border-bottom-left-radius: 50% 15%;
+    padding: 30px 0 20px 0;
+}
+
+#foto {
+    width: 160px;
+    padding-right: 35px;
+}
+
+header div {
+    padding: 90px 30px 70px 30px;
+}
+
+/* Estilos para el formulario */
+form {
+    margin-top: 20px;
+    background-image: url("../img/Gotham.jfif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    padding: 20px;
+    border-radius: 15px 15px 15px 15px;
+}
+
+.alert {
+    margin-bottom: 40px;
+}
+
+label,
+input,
+textarea {
+    margin-bottom: 10px;
+    padding: 5px 0px 5px 0px;
+}
+
+#formulario input:focus,
+#formulario textarea:focus,
+#formulario select:focus {
+    border-color: rgb(255, 255, 255);
+    box-shadow: #fff 1px 1px 6px;
+}
+
+button:hover{
+    box-shadow: #fff 1px 1px 5px;
+}
+
+/* Estilos para las secciones */
+section {
+    padding: 50px;
+}
+
+#habilidades,
+#propuestas,
+#experiencia,
+#footer {
+    background-image: url("../img/Gotham.jfif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+}
+
+.hidden{
+    display:none
+}
+#perfil,
+#educacion,
+#contacto {
+    background-image: url("../img/Hypercolor\ Gradient.jfif");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+section h2 {
+    margin-bottom: 30px;
+}
+
+#habilidades .link:hover{
+    color: white;
+}
+
+.logo {
+    margin: 20px 0 20px 0;
+    width: 70px;
+    filter: invert(100%);
+}
+
+.lista .link {
+    color: black;
+}
+
+.grupo-l {
+    padding: 0;
+}
+
+.lista {
+    margin: 0 0 20px 0;
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+    color: white;
+}
+
+/* Estilos para la tabla */
+
+table {
+    font-weight: 600;
+    color: black;
+}
+
+#miTabla {
+    color: #fff;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+select:focus {
+    outline: none;
+}
+
+
+/* Estilos para el footer */
+footer {
+    background-color: rgb(0, 0, 0);
+    color: #fff;
+    padding: 20px 0 5px 0;
+    text-align: center;
+}
+
+footer .link:hover {
+    color: white;
+}
+
+
+/* Estilos para la barra de navegación */
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #000000;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #ffffff;
+    border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #d7d7d7;
+}
