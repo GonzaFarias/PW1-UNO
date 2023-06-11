@@ -67,6 +67,10 @@ function verMas(event){
 
 function enviarPropuesta(event) {
     event.preventDefault();
+    let alertas = document.querySelectorAll(".alert");
+    if(alertas.length>0){
+        alertas[0].remove();
+    }
 
     // Obtener los valores de los campos del formulario y realizar las validaciones
     let nombre = document.getElementById("nombre").value;
